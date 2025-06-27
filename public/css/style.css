@@ -1,0 +1,66 @@
+@import url("./reset.css");
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    background: radial-gradient(ellipse 60% 90% at top center,#cf3088 0%,#061b36 100%);
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    color: #ffffff;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+
+}
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 92vw;
+    height: 90vh;
+    gap: 3vh;
+    padding: 5vh 15vw 20vh 15vw;
+    border: 2px solid white;
+    
+}
+
+.quote-text:before {
+    content: "“";
+    font-size: 3.5em;
+    position: absolute;
+    top: 15%;
+    left: 12%;
+    text-shadow: 1px 1px 2px #061b36;
+}
+
+
+.quote-text {
+    font-size: calc(15px + 1.75vw);
+    font-weight: 550;
+    line-height: 180%;
+    text-shadow: 1px 1px 2px #061b36;
+}
+
+.quote-text:after {
+    content: "”";
+    font-size: 3.5em;
+    position: absolute;
+    bottom: 20%;
+    right: 12%;
+    text-shadow: 1px 1px 2px #061b36;
+    
+}
+
+.author-text {
+    font-size: calc(8px + 0.7vw);
+    font-weight: 500;
+    text-transform: uppercase;
+    font-style: italic;
+}
