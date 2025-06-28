@@ -7,13 +7,13 @@ const elements = {
 
 const quotes = [
     {
-        quote: "All hands! Abandon ship!",
-        author: "Captain Picard",
+        quote: "For small creatures such as we the vastness is bearable only through love.",
+        author: "Carl Sagan",
     },
 
     {
-        quote: "Doh!",
-        author: "Homer Simpson",
+        quote: "The snow goose need not bathe to make itself white. Neither need you do anything but be yourself.",
+        author: "Lao Tzu",
     },
 
     {
